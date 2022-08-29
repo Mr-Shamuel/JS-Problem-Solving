@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p id="demo"></p>
+    <script>
+        let num = 4;
+
+        //pattern 1
+        for (let row = 1; row <= num; row++) {
+            for (let col = num; col >= 1; col--) {
+                document.write("*")
+
+
+            }
+            document.write("</br>");
+        }
+        document.write("</br>");
+        //pattern 2
+        for (let row = 1; row <= num; row++) {
+            for (let col = num; col >= row; col--) {
+                document.write(row)
+
+
+            }
+            document.write("</br>");
+        }
+        document.write("</br>");
+        //pattern 3
+        for (let row = 1; row <= num; row++) {
+            for (let col = num; col >= row; col--) {
+                document.write(row)
+
+
+            }
+            document.write("</br>");
+        }
+        document.write("</br>");
+
+        //pattern 4
+        for (let row = num; row >= 1; row--) {
+            for (let col = 1; col <= row; col++) {
+                document.write(row)
+
+
+            }
+            document.write("</br>");
+        }
+        document.write("</br>");
+        //pattern 5
+        for (let row = 1; row <= num; row++) {
+            for (let col = 1; col <= row; col++) {
+                document.write(row)
+
+
+            }
+            document.write("</br>");
+        }
+
+        for (let row = num - 1; row >= 1; row--) {
+            for (let col = 1; col <= row; col++) {
+                document.write(col)
+
+
+            }
+            document.write("</br>");
+        }
+        document.write("</br>");
+        //pattern 6
+        for (let row = 1; row <= num; row++) {
+            for (let col = 1; col <= row; col++) {
+                document.write(col)
+
+
+            }
+            document.write("</br>");
+        }
+
+        for (let row = num - 1; row >= 1; row--) {
+            for (let col = 1; col <= row; col++) {
+                document.write(row)
+
+
+            }
+            document.write("</br>");
+        }
+        document.write("</br>");
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .xxx {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div id="xx">
+        <p id="demo">0</p>
+        <p id="demo2">2222222222</p>
+        <p id="demo3">3333333333333</p>
+    </div>
+
+    <button onclick="node()">stop</button>
+    <script>
+        let count = 1;
+
+        const x = setInterval(jony, 1000);
+
+        function jony() {
+            count = count + 1;
+            console.log(count);
+        }
+
+        function node() {
+            clearInterval(x);
+        }
+        // window.innerHeight;
+
+        // setInterval(() => {
+        //     var x = document.getElementById("demo").innerHTML;
+        //     count = count + 1;
+        //     console.log(count);
+
+
+        // }, 1000);
+
+        // function node() {
+        //     clearInterval(
+
+
+        //     );
+        // }
+    </script>
+</body>
+
+</html>
